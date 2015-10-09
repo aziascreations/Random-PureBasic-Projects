@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.30 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="1" name="MD5 Checker"/>
+  </section>
+  <section name="data">
+    <explorer view="C:\Program Files\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2015-10-08 23:56" user="Azias" host="AZIAS-PC"/>
+  </section>
+  <section name="files">
+    <file name="MD5Checker.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="5cb560b0da871227fc37c28c93c8cd96"/>
+    </file>
+    <file name="MD5Checker_FormAbout.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="d325583646961656f43d3e1e128050eb"/>
+    </file>
+    <file name="MD5Checker_FormMain.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="abba8a429ebb7ca40af36ee191e01ede"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="MD5Checker.pb"/>
+      <outputfile value="temp.exe"/>
+      <compiler version="PureBasic 5.30 (Windows - x64)"/>
+      <executable value="temp.exe"/>
+      <options unicode="1" xpskin="1" debug="1"/>
+      <icon enable="1">md5.ico</icon>
+      <compilecount enable="1" value="52"/>
+      <buildcount enable="1" value="7"/>
+      <versioninfo enable="1">
+        <field0 value="1.0.0.2"/>
+        <field1 value="1.0.0.2"/>
+        <field3 value="MD5 Checker Bootleg Edition"/>
+        <field16 value="VFT_DLL"/>
+      </versioninfo>
+    </target>
+  </section>
+</project>
