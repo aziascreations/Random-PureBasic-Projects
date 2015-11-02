@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.30 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="Game Launcher"/>
+    <comment>Created by Azias.</comment>
+  </section>
+  <section name="data">
+    <explorer view="C:\Program Files\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2015-11-02 16:16" user="Azias" host="AZIAS-PC"/>
+  </section>
+  <section name="files">
+    <file name="backgroundImage.png">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="c878694799e8504e5dd3ca395d60b6a6"/>
+    </file>
+    <file name="GameLauncherCore.pb">
+      <config load="1" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="19da2819bb7aa8eda9a3bbf0dbe952e0"/>
+    </file>
+    <file name="GameLauncherFormError.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="df3738e066fc02aba32e40f41edbc312"/>
+    </file>
+    <file name="GameLauncherFormMain.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="5199507b1ce3dbedab7d4ca4866fb6ee"/>
+    </file>
+    <file name="GameLauncherFormOptions.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="fd5985a75d4a5a1050b3a82be64a09e9"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="GameLauncherCore.pb"/>
+      <outputfile value="output.exe"/>
+      <compiler version="PureBasic 5.30 (Windows - x64)"/>
+      <executable value="output.exe"/>
+      <options unicode="1" xpskin="1" debug="1"/>
+      <compilecount enable="1" value="11"/>
+      <buildcount enable="1" value="1"/>
+    </target>
+  </section>
+</project>
