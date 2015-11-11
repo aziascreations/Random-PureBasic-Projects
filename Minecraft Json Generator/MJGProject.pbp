@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.30 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="Minecraft Json Generator"/>
+  </section>
+  <section name="data">
+    <explorer view="C:\Program Files\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2015-11-09 19:34" user="Azias" host="AZIAS-PC"/>
+  </section>
+  <section name="files">
+    <file name="apple.png">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="f028b202fddcae100d51ea637d97fe49"/>
+    </file>
+    <file name="grass.png">
+      <config load="0" scan="0" panel="1" warn="1" lastopen="0" panelstate="+"/>
+      <fingerprint md5="a98749c3e462868626264404ea16f50b"/>
+    </file>
+    <file name="MJGCore.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="fe1cf3b23a82e1f7413ef41af30c5c20"/>
+    </file>
+    <file name="MJGFormAbout.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="0a941e406acedadf9ff74506947c8f62"/>
+    </file>
+    <file name="MJGFormItems.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="e42c9071c0d29ed618e363ba6f13fb97"/>
+    </file>
+    <file name="MJGFormMain.pbf">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="28a687c73d2433854561450332960bff"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="Default Target" enabled="1" default="1">
+      <inputfile value="MJGCore.pb"/>
+      <outputfile value="output.exe"/>
+      <compiler version="PureBasic 5.30 (Windows - x64)"/>
+      <executable value="output.exe"/>
+      <options unicode="1" xpskin="1" debug="1"/>
+      <icon enable="1">icon.ico</icon>
+      <compilecount enable="1" value="87"/>
+      <buildcount enable="1" value="1"/>
+    </target>
+  </section>
+</project>
